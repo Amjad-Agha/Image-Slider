@@ -88,10 +88,3 @@ function removeAddDisabled() {
   currentSlide != slideNums ? nextButton.classList.remove("disabled"):nextButton.classList.add("disabled");
   currentSlide != 1 ? previousButton.classList.remove("disabled"):previousButton.classList.add("disabled");
 }
-// document.addEventListener("click",removeAddDisabled())
-// next.addEventListener("click",() =>{
-//   document.querySelector(".slide li.active + li").classList.add("active");
-//   document.querySelector(".slide li.active").classList.remove("active");
-  
-
-// })
